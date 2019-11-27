@@ -26,22 +26,22 @@
 			</div>
 			<form action="#">
 				<h2>Create an Intuiut account</h2>
-				<h5>One account for everything Intuit, including Mint.</h5>
-				<a>Learn more</a>
-				<label>
+				<p>One account for everything Intuit, including Mint.<br><a href="#">Learn more</a></p>
+				<label for="email">
 					Email address
+				</label>
 					<input type="email" name="email" required>
-				</label>
-				<label>
+				<label for="phone">
 					Phone (recommended)
+				</label>
 					<input type="tel" name="phone">
-				</label>
-				<label>
+					<span class="input-hint">Standard call, messaging or data rates may apply.</span>
+				<label for="password">
 					Password
-					<input type="password" name="password">
 				</label>
-				<input type="Submit" class="btn" name="submit" value="Create Account">
-				<p>By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our  <a href="#">Privacy Statement</a>.</p>
+					<input type="password" name="password" required>
+				<input type="Submit" class="submit btn" name="submit" value="Create Account">
+				<p class="terms-and-privacy-notice">By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our  <a href="#">Privacy Statement</a>.</p>
 				<div class="captcha-notice">
 					<span>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a>Terms of Use</a>.</span>
 				</div>

@@ -35,7 +35,9 @@ body {
 	margin: 0 auto;
 	width: 40%;
 }
-
+.logos{
+	margin-bottom: 15px;
+}
 .main-logo {
     width: 118px;
     height: 35px;
@@ -58,7 +60,72 @@ body {
 	vertical-align: middle;
 	margin-right: 6px;
 }
-
 .content form {
 	background-color: white;
+	padding: 20px;
+	text-align: center;
+	margin-top: 13px;
+	border-style: solid;
+	border-color: gainsboro;
+	border-radius: 10px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+input {
+	
+    width: 95%;
+    height: 35px;
+	
+}
+
+.input-hint{
+	
+    font-size: 12px;
+    text-align: left;
+    display: block;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+
+.submit {
+	margin-top: 30px;
+}
+
+.terms-and-privacy-notice {
+	
+    font-style: italic;
+    font-size: 14px;
+    display: block;
+    width: 70%;
+    margin: 35px auto;
+
+}
+.captcha-notice{
+	
+    width: -webkit-fill-available;
+    background-color: #ECEEF1;
+    position: absolute;
+    left: 0;
+    border-style: solid;
+    border-color: gainsboro;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-width: 1px;
+    padding: 25px 15px 25px 15px;
+
+}
+.captcha-notice span {
+	
+    font-size: 11px;
+    color: gray;
+
 }
