@@ -1,0 +1,32 @@
+body {
+	background-color: #ECEEF1;
+}
+
+.btn {
+	background-color: #0077C5;
+	color: white;
+	border: 1px solid #4c4c4c;
+	border-radius: 4px;
+}
+
+.header {
+	float: right;
+}
+.header p {
+	display: inline;
+	text-align: right;
+	margin-right: 10px;
+	font-size: smaller;
+	vertical-align: top;
+}
+.header button {
+	margin-right: 10px;
+	top: -14px;
+	position: relative;
+	height: 35px;
+	width: 90px;
+}
+
+.form-container form {
+	background-color: white;
+}
