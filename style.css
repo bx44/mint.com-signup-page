@@ -1,0 +1,146 @@
+body {
+  background-color: #eceef1;
+}
+
+.btn {
+  background-color: #0077c5;
+  color: white;
+  border: 1px solid #4c4c4c;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  text-align: right;
+}
+
+.header p {
+  display: inline-block;
+  text-align: right;
+  margin: 0;
+  margin-right: 10px;
+  font-size: smaller;
+  vertical-align: top;
+}
+
+.header button {
+  display: inline-block;
+  margin-right: 10px;
+  height: 35px;
+  width: 90px;
+}
+
+main {
+  top: 75px;
+  position: relative;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.logos {
+  margin-bottom: 15px;
+}
+
+.main-logo {
+  width: 118px;
+  height: 35px;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/ecosystem_logos_new.png);
+  margin: 0 auto;
+}
+
+.sub-logos {
+  text-align: center;
+}
+
+.icon {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 2px;
+  width: 23px;
+  height: 23px;
+  vertical-align: bottom;
+}
+
+.text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+main form {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 13px;
+  border-style: solid;
+  border-color: gainsboro;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+input {
+  width: 95%;
+  height: 35px;
+}
+
+.input-hint {
+  font-size: 12px;
+  text-align: left;
+  display: block;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.submit {
+  margin-top: 30px;
+}
+
+.terms-and-privacy-notice {
+  font-style: italic;
+  font-size: 14px;
+  display: block;
+  width: 70%;
+  margin: 35px auto;
+}
+
+.captcha-notice {
+  width: -webkit-fill-available;
+  background-color: #eceef1;
+  position: absolute;
+  left: 0;
+  border-style: solid;
+  border-color: gainsboro;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-width: 1px;
+  padding: 25px 15px 25px 15px;
+}
+
+.captcha-notice span {
+  font-size: 11px;
+  color: gray;
+}
+
+footer {
+  color: #505050;
+  position: relative;
+  top: 125px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 10px;
+  padding-right: 10px;
+}
